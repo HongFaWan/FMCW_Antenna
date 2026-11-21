@@ -1,0 +1,129 @@
+[
+  {
+    "zip": "RF111_ANT_FEED_A04_Gerber.zip",
+    "sha256": "7e231c265c1f6a65e3c22cf53dbc3080658049aaea7c071ef8520ff595c8b38c",
+    "drc_violations": 0,
+    "closed_profile_segments": 4,
+    "outline_mm": [
+      45,
+      45
+    ],
+    "NPTH_mm": [
+      [
+        37.0,
+        -73.0,
+        3.2
+      ],
+      [
+        37.0,
+        -37.0,
+        3.2
+      ],
+      [
+        73.0,
+        -73.0,
+        3.2
+      ],
+      [
+        73.0,
+        -37.0,
+        3.2
+      ]
+    ],
+    "Rev_B_signal_and_grounds": true,
+    "ground_tabs_exposed": 4,
+    "slotted_ground_checked": true,
+    "PTH_mm": [
+      [
+        38.45,
+        -59.25,
+        0.3
+      ],
+      [
+        38.45,
+        -50.75,
+        0.3
+      ],
+      [
+        54.75,
+        -71.55,
+        0.3
+      ],
+      [
+        63.25,
+        -71.55,
+        0.3
+      ]
+    ]
+  },
+  {
+    "zip": "RF111_ANT_DRIVEN_A04_Gerber.zip",
+    "sha256": "a744dcfc08be3bb41f6dc62b6818bf92d24965addd42948a85fa7d1ee2e3321c",
+    "drc_violations": 0,
+    "closed_profile_segments": 28,
+    "outline_mm": [
+      45,
+      45
+    ],
+    "NPTH_mm": [
+      [
+        37.0,
+        -73.0,
+        3.2
+      ],
+      [
+        37.0,
+        -37.0,
+        3.2
+      ],
+      [
+        73.0,
+        -73.0,
+        3.2
+      ],
+      [
+        73.0,
+        -37.0,
+        3.2
+      ]
+    ],
+    "active_copper": ".gtl",
+    "patch_diameter_mm": 20,
+    "PTH_mm": []
+  },
+  {
+    "zip": "RF111_ANT_PARASITIC_A04_Gerber.zip",
+    "sha256": "c188f90c53975a934b42fdfdd2c267bc8256c77f6f0ece2365929958a359133c",
+    "drc_violations": 0,
+    "closed_profile_segments": 4,
+    "outline_mm": [
+      45,
+      45
+    ],
+    "NPTH_mm": [
+      [
+        37.0,
+        -73.0,
+        3.2
+      ],
+      [
+        37.0,
+        -37.0,
+        3.2
+      ],
+      [
+        73.0,
+        -73.0,
+        3.2
+      ],
+      [
+        73.0,
+        -37.0,
+        3.2
+      ]
+    ],
+    "active_copper": ".gbl",
+    "patch_diameter_mm": 21.7,
+    "PTH_mm": []
+  }
+]

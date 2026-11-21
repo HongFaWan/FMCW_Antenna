@@ -1,0 +1,7 @@
+(version 1)
+(rule "Board edge copper clearance"
+    (constraint edge_clearance (min 0.30mm)))
+(rule "SMA pads contact at the edge"
+    (condition "A.Type == 'Pad' && A.Pad_Number == '1' && (A.memberOfFootprint('J1') || A.memberOfFootprint('J2'))")
+    (constraint edge_clearance (min 0mm))
+    (severity ignore))

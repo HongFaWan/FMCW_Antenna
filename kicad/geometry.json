@@ -1,0 +1,113 @@
+{
+  "size_mm": 45,
+  "width_mm": 1.1,
+  "core_mm": 0.508,
+  "dk": 3.66,
+  "df": 0.0037,
+  "horn": [
+    8.3,
+    65,
+    18.3
+  ],
+  "ports": [
+    {
+      "center": [
+        -4,
+        0
+      ],
+      "length": 10.2,
+      "neck": 0.85,
+      "arm": 4.5,
+      "depth": 0.9,
+      "stub": 2.6,
+      "branches": [
+        [
+          -13.05,
+          2.8,
+          0.87
+        ]
+      ]
+    },
+    {
+      "center": [
+        0,
+        4
+      ],
+      "length": 10.2,
+      "neck": 0.85,
+      "arm": 4.5,
+      "depth": 0.9,
+      "stub": 3.55,
+      "branches": [
+        [
+          -9.33,
+          2.8,
+          0.82
+        ]
+      ]
+    }
+  ],
+  "patches": [
+    {
+      "size": 20,
+      "z": 2.5,
+      "core": 2.5,
+      "dielectric_side": -1,
+      "dk": 2.2,
+      "df": 0.001,
+      "shape": "circle",
+      "material": "F4BM220"
+    },
+    {
+      "size": 21.7,
+      "z": 7.5,
+      "core": 0.508,
+      "dielectric_side": 1,
+      "dk": 2.2,
+      "df": 0.001,
+      "shape": "circle",
+      "material": "F4BM220"
+    }
+  ],
+  "carrier_edge_notches": {
+    "width_mm": 11,
+    "inward_mm": 6.3
+  },
+  "horn_ground_tabs": {
+    "width_mm": 4,
+    "inward_mm": 2.5,
+    "slots": {
+      "width_mm": 5.2,
+      "inward_mm": 3.2
+    },
+    "locations": [
+      {
+        "edge": "-X",
+        "center_mm": -11
+      },
+      {
+        "edge": "-Y",
+        "center_mm": -9
+      },
+      {
+        "edge": "+X",
+        "center_mm": 0
+      },
+      {
+        "edge": "+Y",
+        "center_mm": 0
+      }
+    ]
+  },
+  "launch": {
+    "signal_length_mm": 2.05,
+    "signal_width_mm": 1.5,
+    "ground_start_mm": 0.3,
+    "ground_length_mm": 6,
+    "ground_width_mm": 1.6,
+    "ground_offset_mm": 4.25,
+    "via_inward_mm": 5.95,
+    "via_drill_mm": 0.3,
+    "via_pad_mm": 0.65
+  }
+}

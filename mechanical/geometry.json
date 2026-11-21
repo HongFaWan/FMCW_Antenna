@@ -1,0 +1,68 @@
+{
+  "board_width_mm": 45,
+  "sheet_mm": 0.3,
+  "horn": {
+    "height_to_bend_mm": 8.3,
+    "mouth_mm": 65,
+    "height_above_bend_mm": 10,
+    "inside_bend_radius_mm": 0.5,
+    "k_factor": 0.42
+  },
+  "sma": {
+    "datum_B_to_edge_mm": 0,
+    "body_width_mm": 9.52,
+    "flange_height_mm": 7.92,
+    "jaw_width_mm": 1.27,
+    "jaw_inner_gap_mm": 0.94,
+    "jaw_insertion_mm": 5.38,
+    "relief_width_mm": 11,
+    "driver_relief_depth_mm": 6.3,
+    "front_open_top_z_mm": 5
+  },
+  "ground_tabs": {
+    "width_mm": 4,
+    "inward_leg_mm": 2.5,
+    "wall_leg_mm": 3,
+    "foil_mm": 0.1,
+    "inside_bend_radius_mm": 0.25,
+    "k_factor": 0.42,
+    "driver_relief_width_mm": 5.2,
+    "driver_relief_depth_mm": 3.2
+  },
+  "sides": [
+    {
+      "name": "negative_X_J1",
+      "axis": "X",
+      "sign": -1,
+      "connector_v_mm": 0,
+      "ground_tab_v_mm": -11
+    },
+    {
+      "name": "negative_Y_J2",
+      "axis": "Y",
+      "sign": -1,
+      "connector_v_mm": 4,
+      "ground_tab_v_mm": -9
+    },
+    {
+      "name": "positive_X",
+      "axis": "X",
+      "sign": 1,
+      "connector_v_mm": null,
+      "ground_tab_v_mm": 0
+    },
+    {
+      "name": "positive_Y",
+      "axis": "Y",
+      "sign": 1,
+      "connector_v_mm": null,
+      "ground_tab_v_mm": 0
+    }
+  ],
+  "ground_shim": {
+    "width_mm": 1.27,
+    "length_mm": 5,
+    "nominal_total_filler_mm": 0.362
+  },
+  "dxf_units": "mm"
+}
